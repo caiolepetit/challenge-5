@@ -63,48 +63,48 @@
     <fieldset>
       <h2 class="fs-title">Passo 3</h2>
       <h3 class="fs-subtitle">O projeto envolve vários usuários e/ou clientes?</h3>
-      <label for="resposta1">Não, o projeto é restrito em TI</label>
-      <input type="radio" id="resposta1" name="pergunta2" value="1" />
-      <label for="resposta2">Sim, vários usuários internos ou clientes internos</label>
-      <input type="radio" id="resposta2" name="pergunta2" value="3" />
-      <label for="resposta3">Sim, envolve vários usuários internos e clientes</label>
-      <input type="radio" id="resposta3" name="pergunta2" value="5" />
+      <input type="radio" class="radio" id="resposta1" name="pergunta2" value="1" />
+      <label for="resposta1">Não, o projeto é restrito em TI</label><br/>
+      <input type="radio" class="radio" id="resposta2" name="pergunta2" value="3" />
+      <label for="resposta3">Sim, envolve vários usuários internos e clientes</label><br/>
+      <input type="radio" class="radio" id="resposta3" name="pergunta2" value="5" />
+      <label for="resposta2">Sim, vários usuários internos ou clientes internos</label><br/>
       <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 4</h2>
       <h3 class="fs-subtitle">Este projeto vai aumentar suas receitas ou reduzir custos?</h3>
-      <label for="resposta1">Não, tem impacto interno e ainda não sei que resultados pode trazer</label>
-      <input type="radio" id="resposta1" name="pergunta3" value="1" />
-      <label for="resposta2">Sim, aumenta minhas receitas ou reduz meus custos</label>
-      <input type="radio" id="resposta2" name="pergunta3" value="3" />
-      <label for="resposta3">Sim, aumenta minhas receitas e reduz meus custos</label>
-      <input type="radio" id="resposta3" name="pergunta3" value="5" />
+      <input type="radio" class="radio" id="resposta1" name="pergunta3" value="1" />
+      <label for="resposta1">Não, tem impacto interno e ainda não sei que resultados pode trazer</label><br/>
+      <input type="radio" class="radio" id="resposta2" name="pergunta3" value="3" />
+      <label for="resposta2">Sim, aumenta minhas receitas ou reduz meus custos</label><br/>
+      <input type="radio" class="radio" id="resposta3" name="pergunta3" value="5" />
+      <label for="resposta3">Sim, aumenta minhas receitas e reduz meus custos</label><br/>
       <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 5</h2>
       <h3 class="fs-subtitle">Este projeto é algo novo no mercado ou a concorrência já possui algo similar?</h3>
-      <label for="resposta1">A concorrência já possui similar, eu só preciso me atualizar</label>
-      <input type="radio" id="resposta1" name="pergunta4" value="1" />
-      <label for="resposta2">É algo novo e já sei exatamente o que quero</label>
-      <input type="radio" id="resposta2" name="pergunta4" value="3" />
-      <label for="resposta3">É algo novo, preciso estruturar e definir o resultado esperado</label>
-      <input type="radio" id="resposta3" name="pergunta4" value="5" />
+      <input type="radio" class="radio" id="resposta1" name="pergunta4" value="1" />
+      <label for="resposta1">A concorrência já possui similar, eu só preciso me atualizar</label><br/>
+      <input type="radio" class="radio" id="resposta2" name="pergunta4" value="3" />
+      <label for="resposta2">É algo novo e já sei exatamente o que quero</label><br/>
+      <input type="radio" class="radio" id="resposta3" name="pergunta4" value="5" />
+      <label for="resposta3">É algo novo, preciso estruturar e definir o resultado esperado</label><br/>
       <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 6</h2>
       <h3 class="fs-subtitle">O quanto a velocidade de desenvolvimento é importante?</h3>
-      <label for="resposta1">Pouco, esse projeto tem pouco impacto no negócio</label>
-      <input type="radio" id="resposta1" name="pergunta5" value="1" />
-      <label for="resposta2">Grande, não posso demorar muito para entregar</label>
-      <input type="radio" id="resposta2" name="pergunta5" value="3" />
-      <label for="resposta3">Urgente, preciso iniciar o mais rápido possível</label>
-      <input type="radio" id="resposta3" name="pergunta5" value="5" />
+      <input type="radio" class="radio" id="resposta1" name="pergunta5" value="1" />
+      <label for="resposta1">Pouco, esse projeto tem pouco impacto no negócio</label><br/>
+      <input type="radio" class="radio" id="resposta2" name="pergunta5" value="3" />
+      <label for="resposta2">Grande, não posso demorar muito para entregar</label><br/>
+      <input type="radio" class="radio" id="resposta3" name="pergunta5" value="5" />
+      <label for="resposta3">Urgente, preciso iniciar o mais rápido possível</label><br/>
       <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="submit" name="Enviar" class="next action-button" value="Finalizar" />
     </fieldset>
