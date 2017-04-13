@@ -5,7 +5,7 @@
     $pontuacao += $_POST['pergunta' . $i];
   }
 
-  if ($pontuacao > 5 && $pontuacao < 10) {
+  if ($pontuacao >= 5 && $pontuacao < 10) {
     $mensagem = "Seu projeto tem mais perfil de ser executado pelos métodos tradicionais da FCamara";
   } elseif ($pontuacao > 9 && $pontuacao < 18) {
     $mensagem = "Seu projeto pode ser feito pelo hpteam, o time de alta performance da FCamara";
@@ -44,9 +44,9 @@
       <h2 class="fs-title">Precisa de um desenvolvimento de software e não sabe por onde começar?</h2>
       <h3 class="fs-subtitle">Siga esse roteiro e saiba como você pode chegar nos resultados mais rápido e fácil do que você imagina!</h3>
 
-      <input type="text" name="nome" placeholder="Nome Completo" required="true"/>
-      <input type="email" name="email" placeholder="Email" required="true"/>
-      <input type="button" name="next" class="next action-button" value="Começar!" />
+      <input type="text" name="nome" placeholder="Nome Completo" required type="text"/>
+      <input type="email" name="email" placeholder="Email" required type="email"/>
+      <input type="button" name="Próximo" class="next action-button" value="Começar!" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 2</h2>
@@ -57,8 +57,8 @@
       <input type="radio" id="resposta2" name="pergunta1" value="3" />
       <label for="resposta3">Sim, preciso de ajuda inclusive para definir escopo e resultados</label>
       <input type="radio" id="resposta3" name="pergunta1" value="5" />
-      <input type="button" name="previous" class="previous action-button" value="Previous" />
-      <input type="button" name="next" class="next action-button" value="Next" />
+      <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
+      <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 3</h2>
@@ -69,8 +69,8 @@
       <input type="radio" id="resposta2" name="pergunta2" value="3" />
       <label for="resposta3">Sim, envolve vários usuários internos e clientes</label>
       <input type="radio" id="resposta3" name="pergunta2" value="5" />
-      <input type="button" name="previous" class="previous action-button" value="Previous" />
-      <input type="button" name="next" class="next action-button" value="Next" />
+      <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
+      <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 4</h2>
@@ -81,8 +81,8 @@
       <input type="radio" id="resposta2" name="pergunta3" value="3" />
       <label for="resposta3">Sim, aumenta minhas receitas e reduz meus custos</label>
       <input type="radio" id="resposta3" name="pergunta3" value="5" />
-      <input type="button" name="previous" class="previous action-button" value="Previous" />
-      <input type="button" name="next" class="next action-button" value="Next" />
+      <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
+      <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 5</h2>
@@ -93,8 +93,8 @@
       <input type="radio" id="resposta2" name="pergunta4" value="3" />
       <label for="resposta3">É algo novo, preciso estruturar e definir o resultado esperado</label>
       <input type="radio" id="resposta3" name="pergunta4" value="5" />
-      <input type="button" name="previous" class="previous action-button" value="Previous" />
-      <input type="button" name="next" class="next action-button" value="Next" />
+      <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
+      <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Passo 6</h2>
@@ -105,7 +105,7 @@
       <input type="radio" id="resposta2" name="pergunta5" value="3" />
       <label for="resposta3">Urgente, preciso iniciar o mais rápido possível</label>
       <input type="radio" id="resposta3" name="pergunta5" value="5" />
-      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="submit" name="Enviar" class="next action-button" value="Finalizar" />
     </fieldset>
     <?php } else { ?>
@@ -122,7 +122,7 @@
       <h2 class="fs-title">Parabéns!</h2>
       <h3 class="fs-subtitle">Acreditamos que temos o produto ideal para seu projeto.</h3>
       <p><?php echo $mensagem; ?></p>
-      <input type="button" name="next" class="finish-button" value="Quero enviar uma mensagem!" />
+      <input type="button" name="Próximo" class="finish-button" value="Quero enviar uma mensagem!" />
     </fieldset>
     <?php } ?>
   </form>
