@@ -34,10 +34,12 @@ body {
 	box-sizing: border-box;
 	width: 80%;
 	margin: 0 10%;
+	text-align: left;
 
 	/*stacking fieldsets above each other*/
 	position: relative;
 }
+
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
 	display: none;
@@ -54,6 +56,17 @@ body {
 	color: #2C3E50;
 	font-size: 15px;
 }
+
+#msform label{
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+#msform .radio{
+	width: 10%;
+	text-align: left;
+}
+
 /*buttons*/
 #msform .action-button {
 	width: 100px;

@@ -51,12 +51,12 @@
     <fieldset>
       <h2 class="fs-title">Passo 2</h2>
       <h3 class="fs-subtitle">Você precisa de ajuda para definir a melhor entrega deste projeto?</h3>
-      <label for="resposta1">Não</label>
-      <input type="radio" id="resposta1" name="pergunta1" value="1" />
-      <label for="resposta2">Sim</label>
-      <input type="radio" id="resposta2" name="pergunta1" value="3" />
-      <label for="resposta3">Sim, preciso de ajuda inclusive para definir escopo e resultados</label>
-      <input type="radio" id="resposta3" name="pergunta1" value="5" />
+      <input type="radio" class="radio" id="resposta1" name="pergunta1" value="1" />
+      <label for="resposta1">Não</label><br/>
+      <input type="radio" class="radio" id="resposta2" name="pergunta1" value="3" />
+      <label for="resposta2">Sim</label><br/>
+      <input type="radio" class="radio" id="resposta3" name="pergunta1" value="5" />
+      <label for="resposta3">Sim, preciso de ajuda inclusive para definir escopo e resultados</label><br/>
       <input type="button" name="Anterior" class="previous action-button" value="Anterior" />
       <input type="button" name="Próximo" class="next action-button" value="Próximo" />
     </fieldset>
